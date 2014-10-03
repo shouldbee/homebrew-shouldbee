@@ -2,14 +2,14 @@ require "formula"
 
 class Shouldbee < Formula
   homepage "http://shouldbee.at"
-  version "e1c411e"
+  version "9341491"
 
   if MacOS.prefer_64_bit?
-    url "https://github.com/shouldbee/homebrew-shouldbee/raw/e1c411e/build/darwin-amd64/shouldbee"
-    sha1 "2ef8d0b456065953eceaac834fd16be9b423fbf3"
+    url "https://github.com/shouldbee/homebrew-shouldbee/raw/9341491/build/darwin-amd64/shouldbee"
+    sha1 "7f9788175a7d9e83b2b9f0ca7e739f71c4d50025"
   else
-    url "https://github.com/shouldbee/homebrew-shouldbee/raw/e1c411e/build/darwin-386/shouldbee"
-    sha1 "426789cac67a14229fac41a385bb7749f826c3bc"
+    url "https://github.com/shouldbee/homebrew-shouldbee/raw/9341491/build/darwin-386/shouldbee"
+    sha1 "e63241c83100f6a69efd6c3399dcfd07c2f14add"
   end
 
   def install
